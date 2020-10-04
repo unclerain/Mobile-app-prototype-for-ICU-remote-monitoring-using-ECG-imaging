@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageIv"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:contentDescription="@string/patientname"
+            android:src="@mipmap/ic_launcher" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleTv"
+            android:text="@string/title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackColor"
+            android:layout_toEndOf="@+id/imageIv"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTv"
+            android:text="@string/description"
+            android:textSize="18sp"
+            android:textColor="@color/lightGrayColor"
+            android:layout_toEndOf="@+id/imageIv"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/titleTv"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

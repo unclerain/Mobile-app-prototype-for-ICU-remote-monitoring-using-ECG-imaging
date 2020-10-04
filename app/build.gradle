@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.nouman.sceneview"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    //recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.2.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
+    implementation 'com.google.ar.sceneform:assets:1.15.0'
+}
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('sampledata/model.fbx',
+        'default',
+        'sampledata/model.sfa',
+        'src/main/assets/model')
+
+sceneform.asset('sampledata/atrialwithcolor.obj',
+        'default',
+        'sampledata/atrialwithcolor.sfa',
+        'src/main/assets/atrialwithcolor')
+
+sceneform.asset('sampledata/rocket.obj',
+        'default',
+        'sampledata/rocket.sfa',
+        'src/main/assets/rocket')
+
+sceneform.asset('sampledata/heartwithColor105.obj',
+        'default',
+        'sampledata/heartwithColor105.sfa',
+        'src/main/assets/heartwithColor105')
+
+sceneform.asset('sampledata/heartwithColor106.obj',
+        'default',
+        'sampledata/heartwithColor106.sfa',
+        'src/main/assets/heartwithColor106')
+
+sceneform.asset('sampledata/heartwithColor107.obj',
+        'default',
+        'sampledata/heartwithColor107.sfa',
+        'src/main/assets/heartwithColor107')
+
+sceneform.asset('sampledata/heartwithColor108.obj',
+        'default',
+        'sampledata/heartwithColor108.sfa',
+        'src/main/assets/heartwithColor108')
+
+sceneform.asset('sampledata/heartwithColor109.obj',
+        'default',
+        'sampledata/heartwithColor109.sfa',
+        'src/main/assets/heartwithColor109')
+
+sceneform.asset('sampledata/heartwithColor110.obj',
+        'default',
+        'sampledata/heartwithColor110.sfa',
+        'src/main/assets/heartwithColor110')
+
+sceneform.asset('sampledata/heartwithColor111.obj',
+        'default',
+        'sampledata/heartwithColor111.sfa',
+        'src/main/assets/heartwithColor111')
+
+sceneform.asset('sampledata/heartwithColor112.obj',
+        'default',
+        'sampledata/heartwithColor112.sfa',
+        'src/main/assets/heartwithColor112')

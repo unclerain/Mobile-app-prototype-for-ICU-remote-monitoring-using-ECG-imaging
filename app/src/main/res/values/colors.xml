@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005bea</color>
+    <color name="colorPrimaryDark">#005bea</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blackColor">#000</color>
+    <color name="whiteColor">#fff</color>
+    <color name="lightGrayColor">#a9a9a9</color>
+    <color name="heartRate">#ff1493</color>
+    <color name="temperature">#ffa500</color>
+    <color name="oxygen">#00fa9a</color>
+    <color name="respiration">#00bfff</color>
+    <color name="bloodPressure">#ff0000</color>
+    <color name="chatGreen">#adff2f</color>
+    <color name="buttonBlue">#005bea</color>
+    <color name="darkBlue">#09203f</color>
+    <color name="buttonColor">#005bea</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_patients"
+            android:title="Schedule"
+            android:icon="@drawable/ic_note"/>
+
+        <item
+            android:id="@+id/nav_icuStaff"
+            android:title="Notification"
+            android:icon="@drawable/ic_chat"/>
+
+        <item
+            android:id="@+id/nav_login"
+            android:title="Setting"
+            android:icon="@drawable/ic_seetings"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="User">
+
+            <menu>
+
+                <item
+                android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:icon="@drawable/ic_user"/>
+                <item
+                    android:id="@+id/nav_changeuser"
+                    android:icon="@drawable/ic_icustaff"
+                    android:title="Change user" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

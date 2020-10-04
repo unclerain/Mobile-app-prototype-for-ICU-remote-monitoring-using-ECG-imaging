@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/whiteColor"
+    android:layout_width="match_parent"
+    android:layout_height="455dp"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blackColor"
+            android:text="@string/extended_fab_label_camera"
+            android:textAlignment="center"
+            android:padding="100dp"
+            android:textColor="@color/whiteColor"
+            android:textSize="50sp" />
+
+</LinearLayout>
+
+
+</LinearLayout>
