@@ -36,5 +36,7 @@ We develop a novel remote electrocardiographic imaging (ECGI) monitoring mobile 
 2. Connect the device to the development computer with a USB cable, and
 3. Transfer the executable to the device from the development computer
 
+## License
+Copyright 2020 
 
 
