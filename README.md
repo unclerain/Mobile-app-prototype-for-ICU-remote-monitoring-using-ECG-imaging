@@ -32,9 +32,9 @@ We develop a novel remote electrocardiographic imaging (ECGI) monitoring mobile 
 ## Changelog
 
 ## Installation
-1.Configure the mobile device and computer for hardware debugging,
-2.Connect the device to the development computer with a USB cable, and
-3.Transfer the executable to the device from the development computer
+1. Configure the mobile device and computer for hardware debugging,
+2. Connect the device to the development computer with a USB cable, and
+3. Transfer the executable to the device from the development computer
 
 
 
