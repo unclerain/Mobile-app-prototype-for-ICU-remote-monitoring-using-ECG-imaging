@@ -3,7 +3,10 @@ We develop a novel remote electrocardiographic imaging (ECGI) monitoring mobile 
 ## Preview
 
 <img width="333" alt="Screen Shot 2020-10-07 at 12 33 22 PM" src="https://user-images.githubusercontent.com/71365210/95367446-c6ebd300-08a2-11eb-9f72-9cebb34d32ee.png">
-![Screenshot_1602088766](https://user-images.githubusercontent.com/71365210/95367489-d4a15880-08a2-11eb-9db5-b54aaaef3974.png)
+
+![monitoring hearts](https://user-images.githubusercontent.com/71365210/189994170-4fe8d8cc-9880-4799-8cb1-948693f841ed.jpg)
+
+![monitoring screens](https://user-images.githubusercontent.com/71365210/189994180-edb0305c-aea0-4b47-aa53-8d9504de17ea.jpg)
 
 ## Features
 - Signup/Login Interface
