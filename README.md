@@ -1,4 +1,9 @@
-# iHeart
+# A Novel Mobile Application with Integration of High-resolution Techniques, and computational models for Tele-ICU Monitoring
+
+[Presentation] Shu Y, Smith T, and Cheng C “A Novel Mobile Application for Tele-ICU Monitoring Using ECGI” International Ergonomics Association (IEA) 2021 Virtual Congress, Jun. 2021 ![image](https://github.com/unclerain/Mobile-app-prototype-for-ICU-remote-monitoring-using-ECG-imaging/assets/71365210/d1e3b71d-4772-4514-bfdd-ea3b8e7c2803)
+Finalist, 2021 IISE-DAIS Mobile/Web App Competition
+
+
 We develop a novel remote electrocardiographic imaging (ECGI) monitoring mobile application for Intensive care units (ICUs) on the platform of Android Studio. This application is a pioneering effort that enables real-time 3D tele-monitoring of cardiac health with high accuracy using ECGI in ICUs. This is in stark contrast with the traditional ECG monitoring in clinical settings. This novel toolkit for tele-monitoring eschew heavy investment in major hardware and paves the way to transform cardiac care management in ICUs
 ## Preview
 
